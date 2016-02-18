@@ -1,0 +1,37 @@
+<script src="./estruturas.js"></script>
+<script>
+    
+    var pilha = new ESTRUTURAS.Fila();
+    pilha.addItem({"nome": "teste"});
+     pilha.addItem({"nome": "teste2"});
+     pilha.addItem({"nome": "teste3"});
+    console.log(pilha.getItem());
+    console.log(pilha.getItem());
+    
+    
+    var lista = new ESTRUTURAS.List();
+    lista.addItem({hey: "brother"});
+    var arvore = new ESTRUTURAS.ArvoreBinariaBusca();
+    var no = ESTRUTURAS.ArvoreBinariaBusca.newNo();
+    no.setValue(10);
+    arvore.addNo(no);
+    
+    var no2 = ESTRUTURAS.ArvoreBinariaBusca.newNo();
+    no2.setValue(9);
+    arvore.addNo(no2);
+    
+    var no3 = ESTRUTURAS.ArvoreBinariaBusca.newNo();
+    no3.setValue(8);
+    arvore.addNo(no3);
+    
+    var no4 = ESTRUTURAS.ArvoreBinariaBusca.newNo();
+    no4.setValue(11);
+    arvore.addNo(no4);
+    
+    var no5 = ESTRUTURAS.ArvoreBinariaBusca.newNo();
+    no5.setValue(12);
+    arvore.addNo(no5);
+    
+    var noS = arvore.search(0);
+    console.log(noS);
+</script>
