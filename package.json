@@ -1,0 +1,26 @@
+{
+  "name": "estruturadedados",
+  "version": "1.0.0",
+  "description": "Some Data Structs implementations in Javascript for browsers or node.js",
+  "main": "src/estruturas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzorzal/EstruturasDeDados.git"
+  },
+  "keywords": [
+    "estrutura",
+    "structs",
+    "data",
+    "estruturadedados",
+    "datastructs"
+  ],
+  "author": "Ricardo Zorzal Davila",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rzorzal/EstruturasDeDados/issues"
+  },
+  "homepage": "https://github.com/rzorzal/EstruturasDeDados#readme"
+}
